@@ -3,7 +3,7 @@
     require_once('config.php'); // Path to config file
 
     // Check if keys are in place
-    if (CONSUMER_KEY === '' || CONSUMER_SECRET === '' || CONSUMER_KEY === 'jC0SEG8AlhzlNq1QuVetpwmYi' || CONSUMER_SECRET === 'CD9Q3o1p2qNXllA96X0KVtt2eQjPdiIL4eEcoRxK16jqxynlkpN') {
+    if (CONSUMER_KEY === '' || CONSUMER_SECRET === '' || CONSUMER_KEY === '' || CONSUMER_SECRET === '') {
         echo 'You need a consumer key and secret keys. Get one from <a href="https://apps.twitter.com/">apps.twitter.com</a>';
 
         exit;
